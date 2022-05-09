@@ -80,7 +80,7 @@ INCLINATION_DEGREE = 51.9
 # General files needed to generate visualizations; Do not change for different simulations
 topFile = "../static_html/top.html"
 bottomFile = "../static_html/bottom.html"
-city_detail_file = "../../paper/satellite_networks_state/input_data/ground_stations_cities_sorted_by_estimated_2025_pop_top_1000.basic.txt"
+city_detail_file = "../../ns3-sat-sim/simulator/my-test/large-starlink/satellite_network_state/ground_stations.txt"
 
 # Time in ms for which visualization will be generated
 GEN_TIME=46800  #ms
