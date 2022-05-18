@@ -41,7 +41,7 @@ globe.imageryLayers.removeAll();
 globe.baseColor = Cesium.Color.fromCssColorString('#f7fbff');
 
 var tonerLayer = globe.imageryLayers.addImageryProvider(
-    Cesium.createOpenStreetMapImageryProvider({
+    new Cesium.OpenStreetMapImageryProvider({
         url : 'https://stamen-tiles.a.ssl.fastly.net/toner-background/',
         credit : 'Map tiles by Stamen Design, under CC BY 3.0. Data by OpenStreetMap, under CC BY SA.'
     })

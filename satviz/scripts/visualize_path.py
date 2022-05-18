@@ -80,7 +80,7 @@ INCLINATION_DEGREE = 51.9
 # General files needed to generate visualizations; Do not change for different simulations
 topFile = "../static_html/top.html"
 bottomFile = "../static_html/bottom.html"
-city_detail_file = "../../ns3-sat-sim/simulator/my-test/large-starlink/satellite_network_state/ground_stations.txt"
+city_detail_file = "../../paper/satellite_networks_state/input_data/ground_stations_cities_sorted_by_estimated_2025_pop_top_1000.basic.txt"
 
 # Time in ms for which visualization will be generated
 GEN_TIME=46800  #ms
@@ -90,7 +90,7 @@ GEN_TIME=46800  #ms
 # City IDs are available in the city_detail_file.
 # If city ID is X (for Paris X = 24) and constellation is Starlink_550 (1584 satellites),
 # then offset ID is 1584 + 24 = 1608.
-path_file = "../../paper/satgenpy_analysis/data/starlink_550_isls_plus_grid_ground_stations_top_100_algorithm_free_one_only_over_isls/100ms_for_200s/manual/data/networkx_path_1608_to_1650.txt"
+path_file = "../../ns3-sat-sim/simulator/my-test/satgen_analysis/data/starlink_550_isls_gs_top_100_algorithm_free_gs_one_sat_many_only_over_isls/100ms_for_500s/manual/data/networkx_path_1593_to_1590.txt"
 
 # Output directory for creating visualization html files
 OUT_DIR = "../viz_output/"

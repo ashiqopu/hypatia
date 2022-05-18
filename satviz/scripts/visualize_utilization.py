@@ -42,7 +42,7 @@ UTIL_INTERVAL = 100
 
 
 # CONSTELLATION SPECIFIC PARAMETERS
-"""
+
 # STARLINK 550
 NAME = "starlink_550"
 
@@ -59,8 +59,9 @@ MAX_ISL_LENGTH_M = 2 * math.sqrt(math.pow(EARTH_RADIUS + ALTITUDE_M, 2) - math.p
 NUM_ORBS = 72
 NUM_SATS_PER_ORB = 22
 INCLINATION_DEGREE = 53
-"""
 
+
+'''
 # KUIPER 630
 NAME = "kuiper_630"
 
@@ -77,7 +78,7 @@ MAX_ISL_LENGTH_M = 2 * math.sqrt(math.pow(EARTH_RADIUS + ALTITUDE_M, 2) - math.p
 NUM_ORBS = 34
 NUM_SATS_PER_ORB = 34
 INCLINATION_DEGREE = 51.9
-
+'''
 
 # General files needed to generate visualizations; Do not change for different simulations
 topFile = "../static_html/top.html"
@@ -88,7 +89,7 @@ city_detail_file = "../../paper/satellite_networks_state/input_data/ground_stati
 GEN_TIME=100000  #ms
 
 # Input utilization data file; Generated during simulation
-IN_UTIL_FILE = "../../paper/ns3_experiments/traffic_matrix/runs/run_general_tm_pairing_kuiper_isls_moving/logs_ns3/isl_utilization.csv"
+IN_UTIL_FILE = "../../ns3-sat-sim/simulator/my-test/large-starlink/run/logs_ns3/isl_utilization.csv"
 
 # Output directory for creating visualization html files
 OUT_DIR = "../viz_output/"

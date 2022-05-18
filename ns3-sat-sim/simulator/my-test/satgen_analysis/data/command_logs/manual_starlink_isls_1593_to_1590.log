@@ -1,14 +1,68 @@
-Traceback (most recent call last):
-  File "/home/vagrant/.pyenv/versions/3.8.10/lib/python3.8/runpy.py", line 194, in _run_module_as_main
-    return _run_code(code, main_globals, None,
-  File "/home/vagrant/.pyenv/versions/3.8.10/lib/python3.8/runpy.py", line 87, in _run_code
-    exec(code, run_globals)
-  File "/home/vagrant/ashiq_hypatia/satgenpy/satgen/post_analysis/main_print_routes_and_rtt.py", line 53, in <module>
-    main()
-  File "/home/vagrant/ashiq_hypatia/satgenpy/satgen/post_analysis/main_print_routes_and_rtt.py", line 41, in main
-    print_routes_and_rtt(
-  File "/home/vagrant/ashiq_hypatia/satgenpy/satgen/post_analysis/print_routes_and_rtt.py", line 73, in print_routes_and_rtt
-    with open(satellite_network_dynamic_state_dir + "/fstate_" + str(t) + ".txt", "r") as f_in:
-FileNotFoundError: [Errno 2] No such file or directory: '../ns3-sat-sim/simulator/my-test/large-starlink/satellite_network_state/gen_data/starlink_550_isls_gs_top_100_algorithm_free_gs_one_sat_many_only_over_isls/dynamic_state_100ms_for_500s/fstate_0.txt'
 Data dir: ../ns3-sat-sim/simulator/my-test/satgen_analysis/data/
 Used data dir to form base output dir: ../ns3-sat-sim/simulator/my-test/satgen_analysis/data//starlink_550_isls_gs_top_100_algorithm_free_gs_one_sat_many_only_over_isls/100ms_for_500s/manual
+Change at t=0 ns (= 0.0 seconds)
+  > Path..... 1593 -- 1085 -- 1084 -- 1083 -- 1061 -- 1039 -- 1017 -- 995 -- 973 -- 951 -- 929 -- 907 -- 885 -- 863 -- 841 -- 840 -- 839 -- 1590
+  > Length... 41261944.19037968 m
+  > RTT...... 137.64 ms
+
+Change at t=40500000000 ns (= 40.5 seconds)
+  > Path..... 1593 -- 1085 -- 1084 -- 1083 -- 1061 -- 1039 -- 1017 -- 995 -- 973 -- 951 -- 929 -- 907 -- 885 -- 863 -- 841 -- 819 -- 797 -- 796 -- 795 -- 1590
+  > Length... 44066679.15675016 m
+  > RTT...... 146.99 ms
+
+Change at t=49000000000 ns (= 49.0 seconds)
+  > Path..... 1593 -- 1041 -- 1040 -- 1039 -- 1017 -- 995 -- 973 -- 951 -- 929 -- 907 -- 885 -- 863 -- 841 -- 819 -- 797 -- 796 -- 795 -- 1590
+  > Length... 41257598.58064273 m
+  > RTT...... 137.62 ms
+
+Change at t=159100000000 ns (= 159.1 seconds)
+  > Path..... 1593 -- 1041 -- 1040 -- 1039 -- 1017 -- 995 -- 973 -- 951 -- 929 -- 907 -- 885 -- 863 -- 841 -- 840 -- 839 -- 838 -- 1590
+  > Length... 41689893.336232945 m
+  > RTT...... 139.06 ms
+
+Change at t=193800000000 ns (= 193.8 seconds)
+  > Path..... 1593 -- 1041 -- 1040 -- 1039 -- 1017 -- 995 -- 973 -- 951 -- 929 -- 907 -- 885 -- 863 -- 862 -- 840 -- 839 -- 838 -- 1590
+  > Length... 41656179.1586376 m
+  > RTT...... 138.95 ms
+
+Change at t=194000000000 ns (= 194.0 seconds)
+  > Path..... 1593 -- 1041 -- 1040 -- 1039 -- 1038 -- 1016 -- 994 -- 972 -- 950 -- 928 -- 906 -- 884 -- 862 -- 840 -- 839 -- 838 -- 1590
+  > Length... 41656607.8557671 m
+  > RTT...... 138.95 ms
+
+Change at t=210600000000 ns (= 210.6 seconds)
+  > Path..... 1593 -- 1084 -- 1083 -- 1082 -- 1060 -- 1038 -- 1016 -- 994 -- 972 -- 950 -- 928 -- 906 -- 884 -- 862 -- 840 -- 839 -- 838 -- 1590
+  > Length... 41704200.16868623 m
+  > RTT...... 139.11 ms
+
+Change at t=319700000000 ns (= 319.7 seconds)
+  > Path..... 1593 -- 1084 -- 1083 -- 1082 -- 1060 -- 1038 -- 1016 -- 994 -- 972 -- 950 -- 928 -- 906 -- 884 -- 862 -- 840 -- 818 -- 796 -- 795 -- 794 -- 1590
+  > Length... 44048635.89192783 m
+  > RTT...... 146.93 ms
+
+Change at t=327700000000 ns (= 327.7 seconds)
+  > Path..... 1593 -- 1040 -- 1039 -- 1038 -- 1016 -- 994 -- 972 -- 950 -- 928 -- 906 -- 884 -- 862 -- 840 -- 818 -- 796 -- 795 -- 794 -- 1590
+  > Length... 41251981.339676276 m
+  > RTT...... 137.60 ms
+
+Change at t=423000000000 ns (= 423.0 seconds)
+  > Path..... 1593 -- 1040 -- 1039 -- 1038 -- 1016 -- 994 -- 972 -- 950 -- 928 -- 906 -- 884 -- 862 -- 840 -- 839 -- 838 -- 837 -- 1590
+  > Length... 41731652.0332529 m
+  > RTT...... 139.20 ms
+
+Change at t=452100000000 ns (= 452.1 seconds)
+  > Path..... 1593 -- 1040 -- 1039 -- 1038 -- 1016 -- 1015 -- 993 -- 971 -- 949 -- 927 -- 905 -- 883 -- 861 -- 839 -- 838 -- 837 -- 1590
+  > Length... 41651376.92078711 m
+  > RTT...... 138.93 ms
+
+Change at t=452200000000 ns (= 452.2 seconds)
+  > Path..... 1593 -- 1040 -- 1039 -- 1038 -- 1037 -- 1015 -- 993 -- 971 -- 949 -- 927 -- 905 -- 883 -- 861 -- 839 -- 838 -- 837 -- 1590
+  > Length... 41651267.4465663 m
+  > RTT...... 138.93 ms
+
+Change at t=474400000000 ns (= 474.4 seconds)
+  > Path..... 1593 -- 1083 -- 1082 -- 1081 -- 1059 -- 1037 -- 1015 -- 993 -- 971 -- 949 -- 927 -- 905 -- 883 -- 861 -- 839 -- 838 -- 837 -- 1590
+  > Length... 41674349.04849678 m
+  > RTT...... 139.01 ms
+
+Produced plot: ../ns3-sat-sim/simulator/my-test/satgen_analysis/data//starlink_550_isls_gs_top_100_algorithm_free_gs_one_sat_many_only_over_isls/100ms_for_500s/manual/pdf/time_vs_networkx_rtt_1593_to_1590.pdf
