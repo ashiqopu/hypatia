@@ -60,6 +60,18 @@ commands_to_run.append(
 
 commands_to_run.append(
     "cd {satgen_location};".format(satgen_location=RELATIVE_PATH_TO_SATGEN)+
+    " python -m satgen.post_analysis.main_print_all_routes " +
+    "{output_dir} {satellite_state_dir} {dynamic_update_interval_ms} {end_time_s} {src_num} {dst_num} ".format(
+        output_dir=RELATIVE_PATH_FROM_SATGEN_TO_OUTPUT_DIR, 
+        satellite_state_dir=RELATIVE_PATH_FROM_SATGEN_TO_SATELLITE_STATE,
+        dynamic_update_interval_ms=100, end_time_s=500, src_num=1593, dst_num=1590
+    )+
+    "> {command_log_dir}/manual_all_paths_starlink_isls_{src_num}_to_{dst_num}.log 2>&1".format(
+        command_log_dir=RELATIVE_PATH_FROM_SATGETN_TO_COMMAND_LOGS, src_num=1593, dst_num=1590)
+)
+
+commands_to_run.append(
+    "cd {satgen_location};".format(satgen_location=RELATIVE_PATH_TO_SATGEN)+
     " python -m satgen.post_analysis.main_print_graphical_routes_and_rtt " +
     "{output_dir} {satellite_state_dir} {dynamic_update_interval_ms} {end_time_s} {src_num} {dst_num} ".format(
         output_dir=RELATIVE_PATH_FROM_SATGEN_TO_OUTPUT_DIR, 
